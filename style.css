@@ -1,0 +1,46 @@
+a {
+    color: white;
+    text-decoration: none;
+}
+ 
+ a:hover {
+    color: rgb(43, 0, 255);
+ }
+ 
+ i {
+    color: green;
+ }
+
+ big {
+   color: purple;
+ }
+
+ .gameimg {
+   position: absolute;
+   transform: rotate(15deg);
+   border-radius: 5px;
+   border: 1px solid;
+   height: 40px;
+   transition: transform 0.3s, height 0.3s; /* Smooth animation for size */
+}
+
+.gameimg:hover {
+   transform: rotate(15deg) scale(1.2); /* Increases the size smoothly */
+   height: 48px; /* Adjust height slightly to scale proportionally */
+}
+
+.link {
+   transition: transform 0.3s, height 0.3s; /* Smooth animation for size */
+
+}
+
+.link:hover {
+   transform:  scale(1.2); /* Increases the size smoothly */
+
+   height: 48px; /* Adjust height slightly to scale proportionally */
+
+
+}
+
+
+
